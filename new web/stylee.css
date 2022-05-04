@@ -1,0 +1,220 @@
+#logo img{
+width: 35px;
+margin: 4px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#nvbar{
+    display: flex;
+}
+#logo{
+    margin: 8px 8px;
+}
+#nvbar{
+    position: sticky;
+    top: 0px;
+}
+#nvbar ul
+{
+    display: flex;
+}
+#nvbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+
+}
+#nvbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#nvbar ul li a{
+    display: block;
+    padding: 1px 38px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+font-family: 'Quintessential', cursive;
+}
+    #nvbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    height: 630px;
+    padding: 10px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('cup.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#home h1{
+    color: black;
+    text-align: center;
+    margin: 3px;
+    padding: 2px;
+    font-family: 'Dancing Script', cursive;
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Quintessential', cursive;
+}
+/*services*/
+#servicess{
+    margin: 20px;
+    display: flex;
+}
+#servicess .box{
+border:2px solid brown;
+margin-top: 10px;
+padding: 20px;
+margin:3px 6px;
+border-radius: 30px;
+background-color:rgb(245, 241, 238);
+}
+#servicess .box img{
+    height: 160px;
+    margin:auto;
+    display: block;
+}
+.primary {
+    
+    font-family: 'Quintessential', cursive;
+}
+
+
+
+.main{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+.secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+}
+.btn{
+    padding:10px 38px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.rem;
+    font-family: 'Quintessential', cursive;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+/*client section*/
+#clientss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients{
+    height: 344px;
+}
+#clientss img{
+    height: 160px;
+}
+.clients h1{
+    font-size: 2.2rem;
+    font-family: 'Quintessential', cursive;
+    
+}
+/*
+.clients::before{
+    content: "";
+    position: absolute;
+    background: url('clientback.jpg');
+    width: 100%;
+    height: 100%;
+z-index: -1;
+
+}
+*/
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('contact.jpeg');
+}
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+#contactgroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contactgroup input,
+#contactgroup textarea{
+    width: 100%;
+    padding: 0.5rem;
+
+}
+#contactgroup form{
+    width: 40%;
+}
+#contact h1{
+    font-size: 2.2rem;
+    font-family: 'Quintessential', cursive;
+}
+#contactgroup label {
+    font-size: 1.2rem;
+    font-family: 'Quintessential', cursive;
+}
+#contactgroup ::placeholder{
+    font-family: 'Quintessential', cursive;
+}
+ .btnn{
+    padding:10px 38px;
+border: 2px solid white;
+border-radius: 30px;
+margin: 10px;
+background-color: black;
+color: white;
+font-size: 1.rem;
+font-family: 'Quintessential', cursive;
+cursor: pointer;
+margin-left: 220px;
+}
+
